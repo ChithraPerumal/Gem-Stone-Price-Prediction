@@ -16,7 +16,7 @@ You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufact
 <li>Y	 Width of the cubic zirconia in mm.</li>
 <li>Z	 Height of the cubic zirconia in mm.</li>
 
-<\b>Model building</b><br>
+<b>Model building</b><br>
 There is a linear relationship between carat and price only for carat less than 1.<br>
 I did feature engineerring and found out a linear relationship between cuberoot of carat and log price. I did label encoding,build a linear regression model and selected model with lowest RMSE value.
 
