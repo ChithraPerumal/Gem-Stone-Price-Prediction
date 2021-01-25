@@ -5,10 +5,10 @@ You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufact
 
 <b>Data Description</b><br>
 
-Carat	 Carat weight of the cubic zirconia.<br>
-Cut	 Describe the cut quality of the cubic zirconia. Quality is increasing order Fair, Good, Very Good, Premium, Ideal.<br>
-Color 	 Colour of the cubic zirconia.With D being the best and J the worst.
-Clarity	 cubic zirconia Clarity refers to the absence of the Inclusions and Blemishes. (In order from Best to Worst, FL = flawless, I3= level 3 inclusions) FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3
+<li>Carat	 Carat weight of the cubic zirconia.<\li>
+<li>Cut	 Describe the cut quality of the cubic zirconia. Quality is increasing order Fair, Good, Very Good, Premium, Ideal.<\li>
+<li>Color 	 Colour of the cubic zirconia.With D being the best and J the worst.<\li>
+<li>Clarity	 cubic zirconia Clarity refers to the absence of the Inclusions and Blemishes. (In order from Best to Worst, FL = flawless, I3= level 3 inclusions) FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3<\li>
 Depth	 The Height of a cubic zirconia, measured from the Culet to the table, divided by its average Girdle Diameter.
 Table	 The Width of the cubic zirconia's Table expressed as a Percentage of its Average Diameter.
 Price	 the Price of the cubic zirconia.
