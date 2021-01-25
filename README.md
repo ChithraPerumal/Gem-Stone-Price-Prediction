@@ -4,7 +4,7 @@ Predict price of gemstone using linear regression
 You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufacturer. You are provided with the dataset containing the prices and other attributes of almost 27,000 cubic zirconia (which is an inexpensive diamond alternative with many of the same qualities as a diamond). The company is earning different profits on different prize slots. You have to help the company in predicting the price for the stone on the bases of the details given in the dataset so it can distinguish between higher profitable stones and lower profitable stones so as to have better profit share. Also, provide them with the best 5 attributes that are most important.
 
 <b>Data Description</b>
-Variable Name	Description
+
 Carat	 Carat weight of the cubic zirconia.
 Cut	 Describe the cut quality of the cubic zirconia. Quality is increasing order Fair, Good, Very Good, Premium, Ideal.
 Color 	 Colour of the cubic zirconia.With D being the best and J the worst.
@@ -22,6 +22,7 @@ There is a linear relationship between carat and price only for carat less than 
 I did feature engineerring and found out a linear relationship between cuberoot of carat and log price and build a linear regression model.
 
 <b>Business Insights</b>
+
 •	Important attributes are 	Carat,Clarity,Color,Cut
  
 •	Zirconium carat weight has the most impact on the price  and hence the most important attribute
@@ -32,6 +33,7 @@ I did feature engineerring and found out a linear relationship between cuberoot 
 •	Cut influences the price of stones directly for lower weight stones. When carat weight increases, price depends on clarity and colour as well
 
 <b>Recommendations:</b>
+
 •	Invest on lower weight stones  between 1 and 2 carats with F,IF and VVSI clarity and color D or E.
 •	Stones more than 3 carat weight has to be of VSI,VVSI or IF clarity ,premium or ideal cut and color D,E,F to yield more money. Despite higher carat weight if it has inclusions, price is low, so need to be cautious.
 •	Invest on stones of color D.
