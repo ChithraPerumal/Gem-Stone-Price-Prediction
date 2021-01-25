@@ -18,7 +18,12 @@ You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufact
 
 <b>Model building</b><br>
 There is a linear relationship between carat and price only for carat less than 1.<br>
-I did feature engineerring and found out a linear relationship between cuberoot of carat and log price. I did label encoding,build a linear regression model and selected model with lowest RMSE value.
+I did feature engineerring and found out a linear relationship between cuberoot of carat and log price. I did label encoding of ordinal variables.<br>
+Carat weight above 2  are outliers .But removing all that value would result in losing a lot of data. So I removed only extreme outliers, with carat weight > 2.5 and replaced it with 2.5.<br>
+I build a regression model using LinearRegression function in sklearn.linear_model and smf function in statsmodel in api. There was multicollinearity. <br>
+Since x,y,z are highly correlated to price I dropped x,y and z and build a new model.<br>
+Selected model with lowest RMSE value.<br>
+
 
 <b>Business Insights</b><br>
 •	Important attributes are 	Carat,Clarity,Color,Cut<br> 
