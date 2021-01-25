@@ -9,16 +9,15 @@ You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufact
 <li>Cut	 Describe the cut quality of the cubic zirconia. Quality is increasing order Fair, Good, Very Good, Premium, Ideal.<\li>
 <li>Color 	 Colour of the cubic zirconia.With D being the best and J the worst.<\li>
 <li>Clarity	 cubic zirconia Clarity refers to the absence of the Inclusions and Blemishes. (In order from Best to Worst, FL = flawless, I3= level 3 inclusions) FL, IF, VVS1, VVS2, VS1, VS2, SI1, SI2, I1, I2, I3<\li>
-Depth	 The Height of a cubic zirconia, measured from the Culet to the table, divided by its average Girdle Diameter.
-Table	 The Width of the cubic zirconia's Table expressed as a Percentage of its Average Diameter.
-Price	 the Price of the cubic zirconia.
-X	 Length of the cubic zirconia in mm.
-Y	 Width of the cubic zirconia in mm.
-Z	 Height of the cubic zirconia in mm.
+<li>Depth	 The Height of a cubic zirconia, measured from the Culet to the table, divided by its average Girdle Diameter.<\li>
+<li>Table	 The Width of the cubic zirconia's Table expressed as a Percentage of its Average Diameter.<\li>
+<li>Price	 the Price of the cubic zirconia.<\li>
+<li>X	 Length of the cubic zirconia in mm.<\li>
+<li>Y	 Width of the cubic zirconia in mm.<\li>
+<li>Z	 Height of the cubic zirconia in mm.<\li>
 
 EDA
-There is a linear relationship between carat and price only for carat less than 1. 
-
+There is a linear relationship between carat and price only for carat less than 1.<br>
 I did feature engineerring and found out a linear relationship between cuberoot of carat and log price and build a linear regression model.
 
 <b>Business Insights</b><br>
