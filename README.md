@@ -14,7 +14,7 @@ You are hired by a company Gem Stones co ltd, which is a cubic zirconia manufact
 <li>Price	 the Price of the cubic zirconia.</li>
 <li>X	 Length of the cubic zirconia in mm.</li>
 <li>Y	 Width of the cubic zirconia in mm.</li>
-<li>Z	 Height of the cubic zirconia in mm.</li>
+<li>Z	 Height of the cubic zirconia in mm.</li><br>
 
 <b>Model building</b><br>
 There is a linear relationship between carat and price only for carat less than 1.<br>
